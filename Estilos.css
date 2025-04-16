@@ -1,0 +1,878 @@
+*{
+margin: 0px auto;
+padding: 0px;
+text-decoration: none;
+color: none
+}
+body{
+        background: rgb(20, 20, 20);
+        background-size: cover; 
+        background-position: center center; 
+        background-repeat: no-repeat;        
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Container{
+    background: rgba(58, 56, 56, 0.616);
+    border-radius: 150px 150px 150px 150px;
+    width: 40vw;
+    height: 8vw; 
+    margin: 0px auto;
+
+}
+
+#Titulo{
+     background: rgba(58, 56, 56, 0.616);
+    border-radius: 150px 150px 150px 150px;
+    width: 50vw;
+    height: 8vw; 
+    margin: 0px auto;
+    margin-top: 3vw;
+    margin-bottom: 20vw;
+}
+.ht{
+    font-size: 3.7vw;
+    margin-top: 4%;
+}
+
+header{
+margin: 0 auto;
+margin-top: 5%;
+height: 35vw;
+width: 80%;
+text-align: center ;
+line-height: 100px;
+color: rgb(0, 0, 0);
+}
+
+.datos{
+    display: grid;
+    grid-template-columns: repeat(10, 11.2vw);
+    grid-row: repeat(10, 10vw);
+}
+
+#Perfil{
+    grid-column: 1/4;
+    height: auto;
+    background: rgb(45, 40, 75);
+    text-align: center;
+    margin: 1.5vw;
+    margin-bottom: 0.5vw;
+    padding-top: 1.25%;
+    padding-bottom: 1%;
+    line-height: 100%;
+    border-radius: 3vw 3vw 3vw 3vw;
+    border: 0.35vw solid rgb(124, 119, 119); 
+}
+
+#SobreMi{
+    grid-column: 4/7;
+    height: auto;
+    background: rgb(45, 40, 75);
+    text-align: center;
+    margin: 1.5vw;
+    margin-bottom: 0.5vw;
+    padding-top: 1.25%;
+    padding-bottom: 1%;
+    line-height: 100%;
+    border-radius: 3vw 3vw 3vw 3vw;
+    border: 0.35vw solid rgb(124, 119, 119);
+}
+
+#Educacion{
+    grid-column: 1/4;
+    float: left;
+    width: 91%;
+    height: auto;
+    background: rgb(45, 40, 75);
+    text-align: center;
+    margin: 1.5vw;
+    margin-bottom: 0.5vw;
+    padding-top: 1.25%;
+    padding-bottom: 1%;
+    line-height: 100%;
+    border-radius: 3vw 3vw 3vw 3vw;
+    border: 0.35vw solid rgb(124, 119, 119);
+}
+
+#Experiencia{
+    grid-column: 4/7;
+    float: left;
+    width: 91%;
+    height: auto;
+    background: rgb(45, 40, 75);
+    text-align: center;
+    margin: 1.5vw;
+    margin-bottom: 0.5vw;
+    padding-top: 1.25%;
+    padding-bottom: 1%;
+    line-height: 100%;
+    border-radius: 3vw 3vw 3vw 3vw;
+    border: 0.35vw solid rgb(124, 119, 119);
+}
+
+#Habilidades{
+    grid-column: 1/4;
+    float: left;
+    width: 91%;
+    height: auto;
+    background: rgb(45, 40, 75);
+    text-align: center;
+    margin: 1.5vw;
+    margin-bottom: 0.5vw;
+    padding-top: 1.25%;
+    padding-bottom: 1%;
+    line-height: 100%;
+    border-radius: 3vw 3vw 3vw 3vw;
+    border: 0.35vw solid rgb(124, 119, 119);
+}
+
+#Pasatiempos{
+    grid-column: 4/7;
+    float: left;
+    width: 91%;
+    height: auto;
+    background: rgb(45, 40, 75);
+    text-align: center;
+    margin: 1.5vw;
+    margin-bottom: 0.5vw;
+    padding-top: 1.25%;
+    padding-bottom: 1%;
+    line-height: 100%;
+    border-radius: 3vw 3vw 3vw 3vw;
+    border: 0.35vw solid rgb(124, 119, 119);
+}
+
+aside{ 
+    display: grid;
+    grid-row: repeat(4, 10vw);
+    grid-column: 7/10;
+    grid-row: 1/10;
+    width: 84%;
+    height: auto;
+    background: rgb(45, 40, 75);
+    text-align: center;
+    margin: 1.5vw;
+    margin-bottom: 0.5vw;
+    margin-right: 10vm;
+    padding-top: 1.25%;
+    padding-bottom: 1%;
+    line-height: 100%;
+    border-radius: 3vw 3vw 3vw 3vw;
+
+}
+
+
+/*
+.Proyecto2_imagen{
+    grid-row: 2/2;
+    grid-column: 2/2;
+    width: 95%;
+    margin: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+.Proyecto2_general{
+    grid-row: 2/2;
+    grid-column: 2/2;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+*/
+.hd{
+    font-size: 2.5vw;
+    margin-top: 4%;
+    margin-bottom: 0vw;
+}
+
+.Proyecto1_Destacos{
+    grid-row: 1/1;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.Proyecto2_Destacos{
+    grid-row: 2/2;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.Proyecto3_Destacos{
+    grid-row: 3/3;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+
+.Proyecto4_Destacos{
+    grid-row: 4/4;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+@keyframes ZoomPulsante{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.025);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+@keyframes ZoomPulsante2{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.Destacados_imagen1{
+    grid-row: 1/1;
+    width: 80%;
+    height: auto;
+    margin: 3vw;
+    margin-top: 1vw;
+    margin-bottom: 0.5vw;
+    border-radius: 20px 20px 20px 20px;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+    border: 0.35vw solid rgb(124, 119, 119);
+}
+
+.Destacados_imagen1:hover{
+    scale: 1.1;
+    border: 0.3vw solid #0c5f01;
+}
+
+.Destacados_imagen2{
+    grid-row: 2/2;
+    width: 80%;
+    height: auto;
+    margin: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 20px 20px 20px 20px;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+    border: 0.35vw solid rgb(124, 119, 119);
+}
+
+.Destacados_imagen2:hover{
+    scale: 1.1;
+    border: 0.3vw solid #0c5f01;
+}
+
+.Destacados_imagen3{
+    grid-row: 3/3;
+    width: 80%;
+    height: auto;
+    margin: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 20px 20px 20px 20px;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+    border: 0.35vw solid rgb(124, 119, 119);
+}
+
+.Destacados_imagen3:hover{
+    scale: 1.1;
+    border: 0.3vw solid #0c5f01;
+}
+
+.Destacados_imagen4{
+    grid-row: 4/4;
+    width: 80%;
+    height: auto;
+    margin: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 20px 20px 20px 20px;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+    border: 0.35vw solid rgb(124, 119, 119);
+}
+
+.Destacados_imagen4:hover{
+    scale: 1.1;
+    border: 0.3vw solid #0c5f01;
+}
+
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(6, 12vw);
+    column-gap: 6.5vw;
+    grid-row: repeat(3, 10vw);
+    height: 100px;
+    width: 100%;
+}
+
+footer{
+    background: rgba(0, 0, 0, 0.842);
+    width:92%;
+    height: 18vw;
+    color:rgb(115, 29, 255);
+    margin: 1.5%;
+    margin-top: 10vw;
+    padding-left: 5%;
+    border-radius: 150px 150px 150px 150px;
+}
+
+.Contacto{
+    grid-column: 3/4;
+    grid-row: 1/1;
+}
+
+.GitHub{
+    grid-row: 3/3;
+    grid-column: 5/6;
+    margin-left: 3.5vw;
+}
+
+.Linkedin{
+    grid-row: 3/3;
+    grid-column: 1/2;
+    margin-left: 2.8vw;
+}
+
+.Gmail{
+    grid-row: 3/3;
+    grid-column: 2/4;
+    margin-left: 11.7vw;
+}
+
+
+.Link_GitHub{
+    grid-row: 2/2;
+    grid-column: 5/6;
+}
+ 
+.imagen_GitHub{
+    width: 50%;
+    margin-left: 3.5vw;
+    border-radius: 150px 150px 150px 150px;
+    animation: ZoomPulsante2 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+}
+
+.imagen_GitHub:hover{
+    scale: 1.25;
+    border: 0.3vw solid #0c5f01;
+}
+
+.Link_Linkedin{
+    grid-row: 2/2;
+    grid-column: 1/2;
+}
+
+.imagen_Linkedin{
+    width: 50%;
+    margin-left: 3.5vw;
+    border-radius: 150px 150px 150px 150px;
+    animation: ZoomPulsante2 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+}
+
+.imagen_Linkedin:hover{
+    scale: 1.25;
+    border: 0.3vw solid #0c5f01;
+}
+
+
+
+.Link_Gmail{
+    grid-row: 2/2;
+    grid-column: 3/4;
+}
+
+.imagen_Gmail{
+    width: 50%;
+    margin-left: 3.5vw;
+    border-radius: 150px 150px 150px 150px;
+    animation: ZoomPulsante2 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+}
+
+.imagen_Gmail:hover{
+    scale: 1.25;
+    border: 0.3vw solid #0c5f01;
+}
+
+
+
+.imagen{
+    border-radius: 50%;
+    width: 25%;
+    height: auto;
+    object-fit: cover;
+}
+
+.h0{font-size: 5vw;}
+
+.ha{font-size: 2.5vw;
+    margin-top: 1vw;
+}
+
+.H2{
+    font-size: 3vw;
+    margin-top: 4%;
+    margin-left: 0.5vw;
+}
+
+.Hp{
+    margin-top: 7%;
+    font-size: 1.5vw;
+    text-align: left;
+    margin-left: 1.5vw;
+    margin-right: 1vw;
+}
+
+
+
+.Hpp{
+    margin-top: 7%;
+    margin-bottom: 3%;
+    font-size: 2.5vw;
+    text-align: left;
+    margin-left: 1.5vw;
+    margin-right: 1vw;
+}
+
+
+.Hhabilidades{
+    text-align: left;
+    font-size: 1.5vw;
+    margin-top: 4%;
+    margin-left: 2vw;
+}
+
+.Hhabilidades li{
+    text-align: left;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 5vw;
+}
+
+.H3{
+    font-size: 2vw;
+    margin-top: 4%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.Proyectos{
+    display: grid;
+    grid-template-columns: repeat(3, 28vw);
+    column-gap: 2.3vw;
+    grid-row: repeat(2,3vw);
+}
+
+.Proyectos{
+    background: rgb(53, 52, 52);
+    width:94.4%;
+    height: 21vw;
+    color:rgb(115, 29, 255);
+    margin: 1.5%;
+    margin-bottom: 1%;
+    border-radius: 30px 30px 30px 30px;
+}
+.Proyecto1_imagen{
+    grid-row: 2/2;
+    grid-column: 1/1;
+    width: 95%;
+    margin: 0.5vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+}
+
+.Proyecto1_imagen:hover {
+    animation-play-state: paused;
+    scale: 1.25;
+    border: 0.3vw solid #0c5f01;
+
+}
+
+.Proyecto1_general{
+    grid-row: 2/2;
+    grid-column: 1/1;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.Proyecto2_imagen{
+    grid-row: 2/2;
+    grid-column: 2/2;
+    width: 95%;
+    margin: 0.5vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+}
+
+.Proyecto2_imagen:hover{
+    animation-play-state: paused;
+    scale: 1.25;
+    border: 0.3vw solid #0c5f01;
+}
+
+.Proyecto2_general{
+    grid-row: 2/2;
+    grid-column: 2/2;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+.Proyecto3_imagen{
+    grid-row: 2/2;
+    grid-column: 3/3;
+    width: 95%;
+    margin: 0.5vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+}
+.Proyecto3_imagen:hover{
+    scale: 1.25;
+    border: 0.3vw solid #0c5f01;
+} 
+
+.Proyecto3_general{
+    grid-row: 2/2;
+    grid-column: 3/3;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+.Proyecto4_imagen{
+    grid-row: 3/3;
+    grid-column: 1/1;
+    width: 95%;
+    margin: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+}
+
+.Proyecto4_imagen:hover{
+    scale: 1.25;
+    border: 0.3vw solid #0c5f01;
+}
+
+.Proyecto4_general{
+    grid-row: 3/3;
+    grid-column: 1/1;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+.Proyecto5_imagen{
+    grid-row: 3/3;
+    grid-column: 2/2;
+    width: 95%;
+    margin: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+}
+
+.Proyecto5_imagen:hover{
+    scale: 1.25;
+    border: 0.3vw solid #0c5f01;
+} 
+
+.Proyecto5_general{
+    grid-row: 3/3;
+    grid-column: 2/2;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.Proyecto6_imagen{
+    grid-row: 3/3;
+    grid-column: 3/3;
+    width: 95%;
+    margin: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+}
+
+.Proyecto6_imagen:hover{
+    scale: 1.25;
+    border: 0.3vw solid #0c5f01;
+}
+
+.Proyecto6_general{
+    grid-row: 3/3;
+    grid-column: 3/3;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.Proyecto7_imagen{
+    grid-row: 4/4;
+    grid-column: 1/1;
+    width: 95%;
+    margin: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+}
+
+.Proyecto7_imagen:hover{
+    scale: 1.25;
+    border: 0.3vw solid #0c5f01;
+}
+
+.Proyecto7_general{
+    grid-row: 4/4;
+    grid-column: 1/1;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+.Proyecto8_imagen{
+    grid-row: 4/4;
+    grid-column: 2/2;
+    width: 95%;
+    margin: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+}
+
+.Proyecto8_imagen:hover{
+    scale: 1.25;
+    border: 0.3vw solid #0c5f01;
+}
+
+.Proyecto8_general{
+    grid-row: 4/4;
+    grid-column: 2/2;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+.Proyecto9_imagen{
+    grid-row: 4/4;
+    grid-column: 3/3;
+    width: 95%;
+    margin: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+}
+
+.Proyecto9_imagen:hover{
+    scale: 1.25;
+    border: 0.3vw solid #0c5f01;
+}
+
+.Proyecto9_general{
+    grid-row: 4/4;
+    grid-column: 3/3;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+.Proyecto10_imagen{
+    grid-row: 5/5;
+    grid-column: 1/1;
+    width: 95%;
+    margin: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+}
+
+.Proyecto10_imagen:hover{
+    scale: 1.25;
+    border: 0.3vw solid #0c5f01;
+}
+
+.Proyecto10_general{
+    grid-row: 5/5;
+    grid-column: 1/1;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+.Proyecto11_imagen{
+    grid-row: 5/5;
+    grid-column: 2/2;
+    width: 95%;
+    margin: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+}
+
+.Proyecto11_imagen:hover{
+    scale: 1.25;
+    border: 0.3vw solid #0c5f01;
+}
+
+.Proyecto11_general{
+    grid-row: 5/5;
+    grid-column: 2/2;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+.Proyecto12_imagen{
+    grid-row: 5/5;
+    grid-column: 3/3;
+    width: 95%;
+    margin: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+}
+
+.Proyecto12_imagen:hover{
+    scale: 1.25;
+    border: 0.3vw solid #0c5f01;
+}
+
+.Proyecto12_general{
+    grid-row: 5/5;
+    grid-column: 3/3;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.hproyectos{
+    grid-row: 1/1;
+    grid-column: 1/3;
+    font-size: 3.1vw;
+    margin-top: 2.5vw;
+    margin-left:36.7vw;
+}
+
+
+model-viewer {
+    width: 100%;   /* El modelo ocupa el 100% del ancho disponible */
+    height: 500px; /* Altura fija de 500px */
+}
+
+
+/*
+.Proyecto1_texto{
+    grid-row: 1/1;
+    grid-column: 1/1;
+    font-size: 2.5vw;
+    margin-top: 1vw;
+    margin-right: 100vw; 
+}
+
+.Proyecto2_texto{
+    grid-row: 1/1;
+    grid-column: 2/3;
+    font-size: 2.5vw;
+    margin-top: 19vw;
+    margin-left:12vw; 
+}
+
+.Proyecto3_texto{
+    grid-row: 1/1;
+    grid-column: 3/3;
+    font-size: 2.5vw;
+    margin-top: 19vw;
+    margin-left:12vw; 
+}
+
+.Proyecto4_texto{
+    grid-row: 1/1;
+    grid-column: 1/3;
+    font-size: 2.5vw;
+    margin-top: 38.5vw;
+    margin-left:12vw; 
+}
+
+.Proyecto5_texto{
+    grid-row: 1/1;
+    grid-column: 2/3;
+    font-size: 2.5vw;
+    margin-top: 38.5vw;
+    margin-left:12vw; 
+}
+
+.Proyecto6_texto{
+    grid-row: 1/1;
+    grid-column: 3/3;
+    font-size: 2.5vw;
+    margin-top: 38.5vw;
+    margin-left:12vw; 
+}
+
+.Proyecto7_texto{
+    grid-row: 1/1;
+    grid-column: 1/3;
+    font-size: 2.5vw;
+    margin-top: 58vw;
+    margin-left:12vw; 
+}
+
+.Proyecto8_texto{
+    grid-row: 1/1;
+    grid-column: 2/3;
+    font-size: 2.5vw;
+    margin-top: 58vw;
+    margin-left:12vw; 
+}
+
+.Proyecto9_texto{
+    grid-row: 1/1;
+    grid-column: 3/3;
+    font-size: 2.5vw;
+    margin-top: 58vw;
+    margin-left:12vw; 
+}
+*/
+
